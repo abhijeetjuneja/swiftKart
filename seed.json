@@ -1,0 +1,5 @@
+{
+	"undefined": "localhost/swiftkart",
+	"dev": "localhost/swiftkart",
+	"prod": "localhost/swiftkart"
+}
