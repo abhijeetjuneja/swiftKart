@@ -6,10 +6,17 @@ A React Express Ecommerce platform
 - Cart
 - Orders
 
+### Dependencies
+- Node
+- NPM
+- Mongodb
+
 #### To get started
+- Start mongo in background
 ```shell
 $ yarn install
 $ npm install -g node-mongo-seeds
 $ seed
 $ yarn start
 ```
+-Fire http://localhost:3000 in a browser.
