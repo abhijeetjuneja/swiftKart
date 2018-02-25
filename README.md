@@ -1,31 +1,15 @@
-# React-Express-Boilerplate
-A React Express Webpack Boilerplate to get started to development.
+# React-Express Ecommerce Platform
+A React Express Ecommerce platform
 
 ### Features
-- React
-- Express
-- React-Router
-- Webpack
-- ES6 Support
-- CSS-Loaders
-- Hot Reload Module
+- Sessions
+- Cart
+- Orders
 
 #### To get started
 ```shell
-$ git clone https://www.github.com/htadg/React-Express-Boilerplate.git <YOUR_PROJECT_NAME>
 $ yarn install
-```
-#### To start a development server
-```shell
+$ npm install -g node-mongo-seeds
+$ seed
 $ yarn start
-```
-
-#### To start a production server
-```shell
-$ yarn start:prod
-```
-
-#### To build the app
-```shell
-$ yarn build:prod
 ```
