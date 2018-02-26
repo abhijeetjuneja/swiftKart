@@ -24,7 +24,7 @@ module.exports.controllerFunction = function(app) {
               res.json(myResponse);
           }
           else{
-              if(allItems == null || allItems[0].itemName == undefined)
+              if(allItems == null || allItems[0] == undefined)
               {
                   var myResponse = responseGenerator.generate(false,"No items found",404,null);
                   console.log(myResponse);
