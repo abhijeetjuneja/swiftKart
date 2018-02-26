@@ -63,7 +63,7 @@ app.use(function(req,res,next){
 });
 
 
-mongoose.connect("mongodb://localhost/swiftkart");
+mongoose.connect("mongodb://abhijeet:abhijeet123@ds249428.mlab.com:49428/swiftcart");
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, '#MongoDB - connection error'));

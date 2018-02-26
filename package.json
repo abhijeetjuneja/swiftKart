@@ -1,27 +1,11 @@
 {
- "name": "react-express-boilerplate",
- "description": "A React Express Webpack Boilerplate to get started to development.",
+ "name": "SwiftKart",
+ "description": "Ecommerce site using ReacJS and ExpressJS",
  "version": "0.0.1",
  "main": "./server.js",
- "author": "Hiten Sharma",
- "license": "MIT",
- "repository": {
-  "type": "git",
-  "url": "https://github.com/htadg/react-express-boilerplate"
- },
- "homepage": "https://github.com/htadg/react-express-boilerplate",
- "keywords": [
-  "react",
-  "webpack",
-  "express",
-  "hot reloading",
-  "react-hot-reloader",
-  "starter",
-  "boilerplate",
-  "babel"
- ],
  "scripts": {
-  "start": "nodemon server.js",
+  "deploy": "npm test && git push heroku master",
+  "start": "npm install -g node-mongo-seeds && seed && nodemon server.js",
   "start:prod": "better-npm-run start-prod",
   "build:prod": "better-npm-run build-prod"
  },
