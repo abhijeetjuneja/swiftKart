@@ -7,7 +7,7 @@ module.exports = {
 	entry: path.join(SRC_DIR, 'js/app.jsx'),
 	output: {
 		filename: 'bundle.js',
-		path: path.join(DES_DIR, 'js')
+		path: path.join(DES_DIR, '/js')
 	},
 	cache: true,
 	resolve: {
