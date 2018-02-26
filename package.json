@@ -5,7 +5,7 @@
  "main": "./server.js",
  "scripts": {
   "deploy": "npm test && git push heroku master",
-  "start": "npm install -g node-mongo-seeds && seed && nodemon server.js",
+  "start": "npm install -g node-mongo-seeds && seed && webpack -p && nodemon server.js",
   "start:prod": "better-npm-run start-prod",
   "build:prod": "better-npm-run build-prod"
  },
