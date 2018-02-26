@@ -1,5 +1,5 @@
 {
-	"undefined": "localhost/swiftkart",
-	"dev": "localhost/swiftkart",
-	"prod": "localhost/swiftkart"
+	"undefined": "mongodb://abhijeet:abhijeet123@ds249428.mlab.com:49428/swiftcart",
+	"dev": "mongodb://abhijeet:abhijeet123@ds249428.mlab.com:49428/swiftcart",
+	"prod": "mongodb://abhijeet:abhijeet123@ds249428.mlab.com:49428/swiftcart"
 }
